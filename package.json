@@ -1,0 +1,20 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "description": "A Simple Node Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jude Ocheje",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.2.4",
+    "popper.js": "^1.14.3"
+  }
+}

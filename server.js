@@ -57,6 +57,14 @@ app.get('/about', (req, res) => {
   })
 })
 
+app.get('/projects', (req, res) => {
+  res.render('projects', {
+    title: 'Projects',
+    heading: 'Projects Page',
+    message: 'Portfolio page here'
+  })
+})
+
 app.get('/bad', (req, res) => {
   res.send({
     errorMessage: 'bad request'
